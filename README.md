@@ -114,8 +114,9 @@ Proposed Schedule for Future Development After Call for Code 2024 Submission:
 1. Expand sustainability content library and implement user feedback mechanisms.
 2. Develop interactive quizzes and integrate external data sources.
 3. Launch upgraded version with enhanced features and wider content coverage.
-(Note: The roadmap image is yet to be added.)
 
+
+![EcoEngage roadmap](https://github.com/sai-varshaa/EcoEngage/blob/main/images/EcoEngage%20roadmap.jpg)
 
 ### How to run the project
 
