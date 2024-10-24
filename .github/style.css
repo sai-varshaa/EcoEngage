@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f0f4f1;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 128, 0, 0.7), rgba(0, 128, 0, 0.7)), url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    max-width: 600px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #2d6a4f;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background-color: #eaf4eb;
+    padding: 20px;
+    border-radius: 15px;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #2d6a4f;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Chat Section */
+.chat-section {
+    padding: 50px 0;
+    background-color: #f0f4f1;
+    text-align: center;
+}
+
+.chat-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2d6a4f;
+}
+
+.chat-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#user-input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #2d6a4f;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px 0;
+    background-color: #2d6a4f;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
