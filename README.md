@@ -1,14 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Community](https://img.shields.io/badge/Join-Community-blue)](https://developer.ibm.com/callforcode/solutions/projects/get-started/)
-
-_INSTRUCTIONS: This GitHub repository serves as a template and example you can use to create a well documented README for your project for the [2024 Call for Code Global Challenge](https://developer.ibm.com/callforcode/global-challenge/)._
-
-Your required deliverables and project descriptions should be officially submitted to your My Team > Submissions section of the [Call for Code Global Challenge web site](https://compete.callforcode.skillsnetwork.site/competitions/2024-call-for-code-global-challenge), but you can also optionally include them here for completeness, as it is good practice to clearly document your project in your README file. Replace the examples seen here with your own deliverable links.
-
-Use the **Use this template** button to create a new version of this repository and start entering content for your own Call for Code submission project. Make sure you have [registered for the 2024 Call for Code Global Challenge](https://www.ibm.com/account/reg/signup?formid=urx-52643) to access resources and full project submission instructions. Remove any "INSTRUCTIONS" sections when you are ready to submit your project.
-
-_New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
-
-# Replace this heading with your team/submission name
+# EcoEngage
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -16,14 +6,11 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [Our idea](#our-idea)
 - [Technology implementation](#technology-implementation)
   - [IBM watsonx product(s) used](#ibm-ai-services-used)
-  - [Other IBM technology used](#other-ibm-technology-used)
   - [Solution architecture](#solution-architecture)
 - [Presentation materials](#presentation-materials)
-  - [Solution demo video](#solution-demo-video)
   - [Project development roadmap](#project-development-roadmap)
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
-  - [Live demo](#live-demo)
 - [About this template](#about-this-template)
   - [Contributing](#contributing)
   - [Versioning](#versioning)
@@ -31,108 +18,135 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
-_INSTRUCTIONS: Below are the suggested sections to include in your README file to make sure your project is well documented. You can remove this instruction text._
+
 
 ## Project summary
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+EcoEngage addresses the awareness deficit for sustainable practice waste reduction. It is one area many find hard to translate actual steps into everyday usage. The chatbot utilizes practical sustainability tips that guide users in doing what is best by having the right choice when ensuring a positive environmental impact
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+Our solution provides sustainability tips to promote eco-friendly daily habits.
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+In today’s world, environmental degradation is accelerating due to factors such as overconsumption, improper waste management, and unsustainable practices. While there is growing awareness about climate change, many individuals struggle to translate their concerns into meaningful actions that can help reduce their environmental footprint. This gap exists primarily due to a lack of clear, accessible guidance on how to make sustainable choices in everyday life. Furthermore, existing solutions are often either too complex for the average user or too broad to provide actionable advice. This is where Eco Engage comes in.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+EcoEngage is a chatbot designed to provide practical and easy-to-implement sustainability tips to users. The chatbot focuses on helping people adopt eco-friendly habits by offering guidance on waste reduction, responsible disposal practices, and simple changes to make their lives more sustainable. Our goal is to make sustainability accessible to everyone, regardless of their technical or environmental knowledge.
+
+**Real-world Problem** : The real-world problem we identified is twofold: (1) people often don’t know where to begin when trying to reduce their environmental impact, and (2) existing solutions tend to either overwhelm users with too much information or offer generic advice that isn’t helpful in practice. This creates a barrier for individuals who want to live more sustainably but don’t have the time or knowledge to research and implement the necessary changes.
+
+**Technological solution**:Our technological solution is a user-friendly chatbot built using AI . The chatbot interacts with users through a simple conversational interface, providing them with personalized, step-by-step guidance on how to reduce their waste and live more sustainably. For example, users can ask the chatbot for tips on reducing plastic use, conserving water, or recycling more effectively. The chatbot responds with practical advice that can be easily applied in daily life.
+
+Key features include:
+1. **Sustainability Tips:** The chatbot delivers actionable advice on topics such as reducing single-use plastic, composting at home, minimizing food waste, and energy conservation.
+2. **Waste Disposal Guidance:** Users can learn how to properly dispose of various types of waste, from electronics to household items, helping reduce the negative impact of improper disposal on the environment.
+3. **Simple and Accessible Interface:** Designed for ease of use, the chatbot is accessible to anyone, regardless of technical proficiency. It uses simple language and clear instructions to make sustainability approachable for all.
+4. **Real-time Suggestions:** Although the chatbot doesn’t provide localized guidance, it still offers relevant tips that users can implement wherever they are, empowering them to make a difference in their communities and beyond.
+
+EcoEngage improves on existing solutions by focusing on practicality and accessibility. Unlike many environmental platforms that overwhelm users with complex data or large-scale solutions, our chatbot breaks down sustainability into simple, achievable steps that fit seamlessly into everyday life. It eliminates the need for users to sift through vast amounts of information and provides quick, personalized responses to their questions.
+
+Additionally, the chatbot’s conversational interface makes the experience engaging and interactive, which encourages users to keep coming back for more tips and information. By building habits through repeated engagement, EcoEngage fosters long-term behavioral change that contributes to a healthier planet.
+
+In summary, EcoEngage addresses the pressing need for actionable sustainability advice by delivering personalized, easy-to-follow tips. Through this chatbot, we hope to make sustainability an achievable goal for all individuals, leading to a broader, collective effort in reducing environmental harm.
+
 
 ## Technology implementation
 
 ### IBM watsonx product(s) used
 
-_INSTRUCTIONS: Included here is a list of IBM watsonx products. Remove any products you did not use. Leave only those included in your solution code. In your official submission on the Call for Code Global Challenge web site, you are required to provide details on where and how you used each IBM watsonx product so judges can review your implementation. Remove these instructions._
-
 **Featured watsonx products**
 
-- [watsonx.ai](https://www.ibm.com/products/watsonx-ai) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [watsonx.ai](https://www.ibm.com/products/watsonx-ai) - We utilized watsonx.ai to enhance the chatbot's understanding capabilities. This allows the chatbot to interpret user queries and provide relevant sustainability tips based on the context of the conversation. By leveraging the AI's machine learning algorithms, the chatbot can improve its responses over time, ensuring users receive increasingly accurate and helpful information.
 
-- [watsonx.governance](https://www.ibm.com/products/watsonx-governance) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
 
-- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-### Other IBM technology used
-
-INSTRUCTIONS: List any other IBM technology or IBM AI services used in your solution and describe how each component was used. If you can provide details on where these were used in your code, that would help the judges review your submission.
-
-**Additional IBM AI services (Remove any that you did not use)**
-
-- [Watson Machine Learning](https://cloud.ibm.com/catalog/services/watson-machine-learning) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-
-- [Language Translator](https://cloud.ibm.com/catalog/services/language-translator) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - The watsonx Assistant product was integral in creating the conversational interface of EcoEngage. It enables the chatbot to engage users in a natural dialogue, making the experience intuitive and user-friendly. We implemented various intents and entities to allow the chatbot to understand different user requests related to sustainability topics, ensuring it can deliver tailored advice efficiently.
 
 ### Solution architecture
 
-REPLACE THIS EXAMPLE WITH YOUR OWN, OR REMOVE THIS EXAMPLE
+![EcoEngage architechture](https://github.com/sai-varshaa/EcoEngage/blob/main/images/EcoEngage%20architechture%20diagram.jpg)
 
-Diagram and step-by-step description of the flow of our solution:
+Step-by-step description of the flow of our solution:
 
-![Video transcription/translaftion app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+1.User Interaction:
+Users interact with EcoEngage via a web-based interface or chatbot on any device to ask questions about sustainability.
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+2.Request Processing:
+The user’s query is processed by the front-end application and forwarded to the back-end services.
 
-## Presentation materials
+3.Watsonx Assistant:
+IBM Watsonx Assistant interprets the user’s natural language queries and matches them with relevant intents.
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
+4.AI-Driven Data Analysis (Watsonx.ai):
+Watsonx.ai analyzes user behavior and query patterns to generate personalized sustainability tips.
 
-### Solution demo video
+5.Knowledge Database:
+The system queries a centralized knowledge database for accurate and up-to-date information on sustainability practices.
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+6.Feedback Loop:
+User interactions are logged and analyzed to refine responses and adapt to user preferences.
+
+7.Response to User:
+Watsonx Assistant sends back actionable eco-friendly practices, which are displayed on the user’s device.
+
+8.Optional Integration with APIs:
+Future versions may include APIs for real-time data on environmental initiatives in the user’s locality.
+
 
 ### Project development roadmap
 
-The project currently does the following things.
+The project currently includes the following features:
 
-- Feature 1
-- Feature 2
-- Feature 3
+**Sustainability Tips**: Provides users with practical advice on waste reduction, energy conservation, and other eco-friendly practices.
+Waste Disposal Guidance: Offers recommendations on how to properly dispose of various types of waste to minimize environmental harm.
+User-Friendly Interface: Delivers an interactive chatbot experience that makes sustainability tips easily accessible through simple conversations.
+In the future, we plan to:
 
-In the future we plan to...
+**Expand Content**: Add more detailed and diverse sustainability tips, covering topics such as water conservation, green energy options, and eco-friendly shopping.
+User Feedback Mechanism: Implement a feature where users can provide feedback on the tips received, allowing the system to improve and adapt over time.
+Interactive Quizzes: Introduce quizzes that test users' knowledge of sustainability topics, providing an engaging way to learn and take action.
+Integration with External Data Sources: Explore integrating real-time environmental data to offer more dynamic and personalized suggestions.
 
-See below for our proposed schedule on next steps after Call for Code 2024 submission.
+Proposed Schedule for Future Development After Call for Code 2024 Submission:
 
-![Roadmap](./images/roadmap.jpg)
+1. Expand sustainability content library and implement user feedback mechanisms.
+2. Develop interactive quizzes and integrate external data sources.
+3. Launch upgraded version with enhanced features and wider content coverage.
+(Note: The roadmap image is yet to be added.)
 
-## Additional details
-
-_INSTRUCTIONS: The following deliverables are suggested, but **optional**. Additional details like this can help the judges better review your solution. Remove any sections you are not using._
 
 ### How to run the project
 
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+To run EcoEngage locally for development and testing or deploy it in a production environment, follow the steps outlined below.
 
-### Live demo
+1.Local Development Setup:
 
-You can find a running system to test at...
+    1.1 Clone the project repository
+    
+    1.2 Install the required dependencies
+    
+    1.3 Configure the environment variables:
+  
+        WATSONX_API_KEY= t7AnA7sx-yJxPnpqo84lmMW5wTPgbiE_eO0gvlSpliUO
+        WATSONX_ASSISTANT_ID= 41e13166-2818-450e-a490-d9a1bb0aed31
+        WATSONX_URL= https://api.au-syd.assistant.watson.cloud.ibm.com/instances/1f43a176-85b0-4991-8642-6ecb14ed4f17
+        
+    1.4 Start and access the application 
 
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
+2. Deployment in Production:
 
----
+   2.1 Use IBM Cloud:
+       Confirm that the watsonx Assistant and watsonx.ai services have been successfully deployed on IBM Cloud.
+       Generate production-level API keys, updating environment variables to reflect the configuration for the production setup.
 
-_INSTRUCTIONS: You can remove the below section from your specific project README._
+    2.2 Deploy the Application:
+        Publish the application on a cloud provider such as Heroku, Netlify, or any other. 
+        Ensure that you define variables for your production environment and activate all required security measures and scaling options appropriate for production environments.
+
+    2.3 Monitor and Maintain:
+        After the implementation, monitoring tools must be set up to track performance, manage logs, and ensure continuous availability. Periodic updates as well as feedback loops need to happen          to maintain the quality of service.
 
 ## About this template
 
